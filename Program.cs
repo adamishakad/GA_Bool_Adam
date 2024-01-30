@@ -1,4 +1,9 @@
-﻿namespace GA_Bool_Adam
+﻿using static System.Formats.Asn1.AsnWriter;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
+
+namespace GA_Bool_Adam
 {
     internal class Program
     {
@@ -16,15 +21,11 @@
                 bool isStudent = true;
                 bool isTeenager = false;
                 Console.WriteLine("");
-
+               
+ 
 
 
             }
-
-
-
-
-
         }
     }
 
